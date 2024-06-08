@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    background-color:#ffe4c4;
+}
+
+#menu{
+    height: 80px;
+    background-color:#ffe4c4;
+    padding: 0 20px;
+
+}
+#logo{
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    line-height: 60px;
+    color: purple;
+    float: left;
+    margin-right: 200px;
+}
+nav{
+    float:bottom;
+    line-height: 68px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: purple;
+    text-emphasis-color: purple;
+    font-weight: 400;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.icon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#anasayfa{
+    height: 650px;
+    background-image: url("img/books.jpg");
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 650px;
+    background-color: black;
+    opacity: 0.5;
+}
+#içerik{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 20px;
+}
+#Bookpedia{
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    color: purple;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+#hakkimizda{
+    background-color: #ffe4c4;
+    padding: 50px;
+    text-align: center ;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+h3{
+    font-size: 35px;
+    color: purple;
+    text-shadow: 0px 2px 2px black;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+#sol{
+    float: left;
+    border-right: 3px solid rgb(197, 94, 197);
+    font-size: 30px;
+    width: 400px;
+    color: rgb(197, 94, 197);
+}
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+}
+#h5sol,#sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+span{
+    font-size: 40px;
+    margin-left: 40px;
+    line-height: 42px;
+    color: rgb(197, 94, 197);
+    font-weight: 600;
+    float: left;
+}
+#sag{
+    float: right;
+    width: 750px;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.mt100{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700px;
+}
+#pson{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+#books{
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+.card{
+    width: 200px;
+    height: auto;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+.baslikcard{
+    font-size: 15px;
+    color: purple;
+}
+.cardp{
+    color: #888;
+}
+.card:hover{
+    border: 2px solid gray;
+}
+.duyuru{
+    width: 200px;
+    height: auto;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+.duyuru:hover{
+    border: 2px solid gray;
+}
+.duyurubaslik{
+    font-size: 15px;
+    color: purple;
+}
+#contact{
+    background: url(../images/food1.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#contactopac{
+    background: rgba(255, 255, 255, 0.7);
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 500px;
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#leftform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+
+#rightform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+
+.form-control{
+     width: 100%;
+     padding: 10px;
+     font-size: 15px;
+     line-height: 1.5;
+     color: rgb(83, 58, 28);
+     background-color: white;
+     margin: 10px;
+     border-radius: 5px;
+     border: 1px solid gray;
+}
+
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(131, 106, 75);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: wheat;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#address{
+    width: 400px;
+    float: right;
+    padding: 30px;
+    height: 450px;
+    text-align: left;
+}
+
+#addresstitle{
+    font-size: 30px;
+    color:  rgb(131, 106, 75);
+}
+
+.addressp{
+    color: #ad9b7f;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
+#copyright{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#up{
+    color: #ad9b7f;
+    font-size: 20px;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
+
+
+
+
+
